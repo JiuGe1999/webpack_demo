@@ -8,5 +8,8 @@
 .hello {
   color: red;
   font-family: 'MyFont';
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.module.css.map */

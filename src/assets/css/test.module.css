@@ -17,11 +17,16 @@
 }
 
 .a .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #fff !important;
   padding: 0 24px !important;
-  box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
 }
 
 .a .header :global(.ant-input-affix-wrapper) {
@@ -34,8 +39,12 @@
 }
 
 .a .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .a .logo {
@@ -45,8 +54,12 @@
 }
 
 .a .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .a .btn {
@@ -55,16 +68,24 @@
 }
 
 .a .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 25px;
   font-size: 12px;
   cursor: pointer;
 }
 
 .a .info {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .a .searchIcon {
@@ -83,8 +104,10 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .a .nickname {
@@ -103,8 +126,12 @@
 }
 
 .a .dropdownItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .a .logoutIcon {
@@ -128,8 +155,12 @@
 }
 
 .a .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 120px;
   border: 1px solid #eee;
 }
@@ -145,7 +176,8 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .a .info .name {
@@ -168,9 +200,15 @@
 }
 
 .a .loginModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .a .loginModal :global(.ant-modal) {
@@ -181,7 +219,8 @@
   padding: 0 !important;
   overflow: hidden;
   background-color: transparent;
-  box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
+          box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
 }
 
 .a .loginModal :global(.ant-modal-body) {
@@ -214,7 +253,10 @@
   width: 640px;
   height: 320px;
   position: relative;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .a .closeBtn {
@@ -247,7 +289,8 @@
   cursor: pointer;
   background: #fff;
   border: 1px solid #f1f2f7;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .a .erpBtn {
@@ -287,11 +330,16 @@
 }
 
 .b .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #fff !important;
   padding: 0 24px !important;
-  box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
 }
 
 .b .header :global(.ant-input-affix-wrapper) {
@@ -304,8 +352,12 @@
 }
 
 .b .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .b .logo {
@@ -315,8 +367,12 @@
 }
 
 .b .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .b .btn {
@@ -325,16 +381,24 @@
 }
 
 .b .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 25px;
   font-size: 12px;
   cursor: pointer;
 }
 
 .b .info {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .b .searchIcon {
@@ -353,8 +417,10 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .b .nickname {
@@ -373,8 +439,12 @@
 }
 
 .b .dropdownItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .b .logoutIcon {
@@ -398,8 +468,12 @@
 }
 
 .b .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 120px;
   border: 1px solid #eee;
 }
@@ -415,7 +489,8 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .b .info .name {
@@ -438,9 +513,15 @@
 }
 
 .b .loginModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .b .loginModal :global(.ant-modal) {
@@ -451,7 +532,8 @@
   padding: 0 !important;
   overflow: hidden;
   background-color: transparent;
-  box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
+          box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
 }
 
 .b .loginModal :global(.ant-modal-body) {
@@ -484,7 +566,10 @@
   width: 640px;
   height: 320px;
   position: relative;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .b .closeBtn {
@@ -517,7 +602,8 @@
   cursor: pointer;
   background: #fff;
   border: 1px solid #f1f2f7;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .b .erpBtn {
@@ -557,11 +643,16 @@
 }
 
 .c .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #fff !important;
   padding: 0 24px !important;
-  box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.06);
 }
 
 .c .header :global(.ant-input-affix-wrapper) {
@@ -574,8 +665,12 @@
 }
 
 .c .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .c .logo {
@@ -585,8 +680,12 @@
 }
 
 .c .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .c .btn {
@@ -595,16 +694,24 @@
 }
 
 .c .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 25px;
   font-size: 12px;
   cursor: pointer;
 }
 
 .c .info {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .c .searchIcon {
@@ -623,8 +730,10 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .c .nickname {
@@ -643,8 +752,12 @@
 }
 
 .c .dropdownItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .c .logoutIcon {
@@ -668,8 +781,12 @@
 }
 
 .c .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 120px;
   border: 1px solid #eee;
 }
@@ -685,7 +802,8 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .c .info .name {
@@ -708,9 +826,15 @@
 }
 
 .c .loginModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .c .loginModal :global(.ant-modal) {
@@ -721,7 +845,8 @@
   padding: 0 !important;
   overflow: hidden;
   background-color: transparent;
-  box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
+          box-shadow: 0 10px 30px 0 rgba(35, 35, 33, 0.2);
 }
 
 .c .loginModal :global(.ant-modal-body) {
@@ -754,7 +879,10 @@
   width: 640px;
   height: 320px;
   position: relative;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c .closeBtn {
@@ -787,7 +915,8 @@
   cursor: pointer;
   background: #fff;
   border: 1px solid #f1f2f7;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .c .erpBtn {
@@ -807,3 +936,4 @@
 .c .erpBtn:hover {
   background: #fff;
 }
+/*# sourceMappingURL=test.module.css.map */
