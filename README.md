@@ -30,9 +30,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 其他
 
-#### 在开发过程中，切忌在开发环境使用生产环境才会用到的工具，如在开发环境下，应该排除 [fullhash]/[chunkhash]/[contenthash] 等工具。
+##### 在开发过程中，切忌在开发环境使用生产环境才会用到的工具，如在开发环境下，应该排除 [fullhash]/[chunkhash]/[contenthash] 等工具。
 
-#### 同样，在生产环境，也应该避免使用开发环境才会用到的工具，如 webpack-dev-server 等插件。
+##### 同样，在生产环境，也应该避免使用开发环境才会用到的工具，如 webpack-dev-server 等插件。
 
 ### 总结
 
